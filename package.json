@@ -1,0 +1,30 @@
+{
+    "name": "piranhax",
+    "version": "1.0.0",
+    "description": "Complete implementation package of Amazon Product Advertising API for Node.js ",
+    "main": "index.js",
+    "scripts": {
+        "test": "ava"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raitucarp/piranhax"
+    },
+    "keywords": [
+        "affiliate",
+        "Amazon",
+        "AWSEcommerce"
+    ],
+    "author": "Raitucarp",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "lodash": "^4.13.1",
+        "moment": "^2.13.0",
+        "request": "^2.72.0",
+        "xml2js": "^0.4.16"
+    },
+    "devDependencies": {
+        "ava": "^0.15.2",
+        "lodash": "^4.13.1"
+    }
+}
