@@ -2,6 +2,8 @@
 
 When the inhabitant creature want to survive in the jungle.
 
+[![npm version](https://badge.fury.io/js/piranhax.svg)](https://www.npmjs.com/package/piranhax)
+
 ## Introduction Piranhax
 
 Piranhax is Node.js package that provides complete implementation of __Amazon Product Advertising API__. It supports all of operation from schema.
