@@ -1,7 +1,7 @@
-env:
-    - CI_BUILD=travis
 language: node_js
 node_js:
-  - "6.2.2"
-  - "6.1.0"
-  - "6.0.0"
+    - "6.2.2"
+    - "6.1.0"
+    - "6.0.0"
+env:
+    - CI_BUILD=travis
