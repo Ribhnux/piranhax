@@ -5,6 +5,7 @@ When the inhabitant creature want to survive in the jungle.
 [![NPM](https://nodei.co/npm/piranhax.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/piranhax/)
 
 [![npm version](https://badge.fury.io/js/piranhax.svg)](https://www.npmjs.com/package/piranhax)
+[![Build Status](https://travis-ci.org/raitucarp/piranhax.svg?branch=master)](https://travis-ci.org/raitucarp/piranhax)
 
 ## Introduction Piranhax
 
