@@ -25,9 +25,15 @@ Also, Piranhax only support ES6 Promise right now (not callback).
 
 Piranhax dependencies are [xml2js](https://www.npmjs.com/package/xml2js) for convert xml to JSON, and [lodash](https://lodash.com/) for ability to get nested object.
 
+## Why is called Piranhax not Piranha?
+Because npm only allow unique package name. There is a package named piranha.
+
+
 ## Getting Started
 
 Piranhax need the latest Node.js that supports ES6, you can check that capability requirements with [node.green]((https://babeljs.io/docs/usage/require/)). Or if you still wanna use older version, you can use it with [babel-register](https://babeljs.io/docs/usage/require/).
+
+First, install Piranhax
 
 ```
 npm install piranhax --save
@@ -42,7 +48,7 @@ const Piranhax = require("piranhax")
 ```
 
 ## Create client
-All API operations can be used through client. So we need to create a Piranhax client. It takes 3 parameters:
+All API operations can be used through a client. So we need to create a Piranhax client. It takes 3 parameters:
 
 - AWSAccessKeyId
 - SecretKey
@@ -74,9 +80,9 @@ client.ItemSearch("Books", {
 ```
 
 The ```ItemSearch``` takes 2 arguments:
-- __SearchIndex__: in the example code below, ```Books``` is a search index
+- __SearchIndex__: in the example code above, ```Books``` is a search index
 - (optional) Key-value pairs of request parameters for example:
-  ```javascript
+  ```
   {
       Keywords: "Calculus",
       ResponseGroup: ["Large"]
@@ -109,7 +115,7 @@ client.ItemLookup(ASIN, {
 The ```ItemLookup``` operation takes 2 arguments:
 - __Item ID__: in the example code above, it uses ASIN as an ID which is ```B00IOY8XWQ```
 - (Optional) Key-value pairs of request parameters for example:
-  ```javascript
+  ```
   {
       ResponseGroup: ["Large"]
   }
@@ -398,7 +404,7 @@ Get Request object from main data.
 - generate complete API documentation for gh-pages
 - create examples directory
 
-# Contribution
+# Contributing
 
 Before submit pull request. Make sure you install devDependencies
 

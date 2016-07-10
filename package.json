@@ -1,6 +1,6 @@
 {
     "name": "piranhax",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Complete implementation package of Amazon Product Advertising API for Node.js ",
     "main": "index.js",
     "scripts": {
