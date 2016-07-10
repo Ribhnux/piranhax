@@ -58,7 +58,7 @@ All API operations can be used through a client. So we need to create a Piranhax
 const client = new Piranhax("Your AWSAccessKeyId", "Your SecretKey", "Your AssociateTag")
 ```
 
-_To get that credentials, read : _
+To get that credentials, read :
 - [http://docs.aws.amazon.com/AWSECommerceService/latest/DG/RequiredParameters.html](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/RequiredParameters.html)
 - [http://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingDev.html](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingDev.html) 
 
