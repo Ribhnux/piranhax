@@ -33,15 +33,15 @@ Because npm only allow unique package name. There is a package named piranha.
 
 Piranhax need the latest Node.js that supports ES6, you can check that capability requirements with [node.green]((https://babeljs.io/docs/usage/require/)). Or if you still wanna use older version, you can use it with [babel-register](https://babeljs.io/docs/usage/require/).
 
-First, install Piranhax
+First, install Piranhax:
 
 ```
 npm install piranhax --save
 ```
 
-# How to Use it
+# How to Use
 
-After you install the package. You can include piranhax within your code such this:
+After you install the package. You can include ```Piranhax``` within your code such this:
 
 ```javascript
 const Piranhax = require("piranhax")
@@ -57,6 +57,10 @@ All API operations can be used through a client. So we need to create a Piranhax
 ```javascript
 const client = new Piranhax("Your AWSAccessKeyId", "Your SecretKey", "Your AssociateTag")
 ```
+
+_To get that credentials, read : _
+- [http://docs.aws.amazon.com/AWSECommerceService/latest/DG/RequiredParameters.html](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/RequiredParameters.html)
+- [http://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingDev.html](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingDev.html) 
 
 ## ItemSearch
 
