@@ -1,6 +1,6 @@
 # Piranhax
 
-When the inhabitant creature want to survive in the jungle.
+When the inhabitant creature wants to survive in the jungle.
 
 [![NPM](https://nodei.co/npm/piranhax.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/piranhax/)
 
