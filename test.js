@@ -40,13 +40,6 @@ test.cb("Check Signed URL value", t => {
 
 // test ItemLookup
 test.cb("ItemLookup", t => {
-    // a strategy to pass CI build, because credentials set in environment
-    if (process.env.CI_BUILD) {
-        t.pass()
-        t.end()
-        return
-    }
-
     // here is the real test
     let c = getCredentials()
     let client = new Piranhax(c.AccessKeyId, c.SecretKey, c.AssociateTag)
@@ -68,13 +61,6 @@ test.cb("ItemLookup", t => {
 
 // test ItemSearch
 test.cb("ItemSearch", t => {
-    // a strategy to pass CI build, because credentials set in environment
-    if (process.env.CI_BUILD) {
-        t.pass()
-        t.end()
-        return
-    }
-
     // here is the real test
     let c = getCredentials()
     let client = new Piranhax(c.AccessKeyId, c.SecretKey, c.AssociateTag)
@@ -95,13 +81,6 @@ test.cb("ItemSearch", t => {
 
 // test BrowseNodeLookup
 test.cb("BrowseNodeLookup", t => {
-    // a strategy to pass CI build, because credentials set in environment
-    if (process.env.CI_BUILD) {
-        t.pass()
-        t.end()
-        return
-    }
-
     // here is the real test
     let c = getCredentials()
     let client = new Piranhax(c.AccessKeyId, c.SecretKey, c.AssociateTag)
@@ -122,13 +101,6 @@ test.cb("BrowseNodeLookup", t => {
 
 // test SimilarityLookup
 test.cb("SimilarityLookup", t => {
-    // a strategy to pass CI build, because credentials set in environment
-    if (process.env.CI_BUILD) {
-        t.pass()
-        t.end()
-        return
-    }
-
     // here is the real test
     let c = getCredentials()
     let client = new Piranhax(c.AccessKeyId, c.SecretKey, c.AssociateTag)
@@ -164,13 +136,6 @@ test.cb("SimilarityLookup", t => {
 
 // test Cart Operation
 test.cb("All cart operation", t => {
-    // a strategy to pass CI build, because credentials set in environment
-    if (process.env.CI_BUILD) {
-        t.pass()
-        t.end()
-        return
-    }
-
     let c = getCredentials()
     let client = new Piranhax(c.AccessKeyId, c.SecretKey, c.AssociateTag)
 
