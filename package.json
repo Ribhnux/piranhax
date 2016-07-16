@@ -1,6 +1,6 @@
 {
     "name": "piranhax",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Complete implementation package of Amazon Product Advertising API for Node.js ",
     "main": "index.js",
     "scripts": {
@@ -26,5 +26,8 @@
     "devDependencies": {
         "ava": "^0.15.2",
         "lodash": "^4.13.1"
+    },
+    "engines": {
+        "node" : ">=6.0.0"
     }
 }
