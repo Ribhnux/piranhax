@@ -159,7 +159,7 @@ class CartItem {
      * @return {Boolean} valid status
      */
     isValid() {
-        if (this._quantity < 1) {
+        if (this._quantity < 0) {
             return false
         }
 
