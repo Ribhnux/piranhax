@@ -237,7 +237,7 @@ test.cb("All cart operation", t => {
         // get CartItems size
         let c = result.get("CartItems.CartItem").length
         // check for the count, if 12 then pass
-        t.is(c, 12)
+        t.is(c, 11)
 
         // set amount to global variable
         amount = result.get("SubTotal.Amount")
