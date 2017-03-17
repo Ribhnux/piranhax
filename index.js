@@ -106,9 +106,9 @@ class CartItem {
     Quantity(qty) {
         qty = _.toInteger(qty)
 
-        // the minimum quantity set to 1, be safe oh yeah
+        // allow to clear an item for cart
         if (qty < 0) {
-            qty = 1
+            qty = 0
         }
 
         // set this data to CartItem
