@@ -62,6 +62,13 @@ To get that credentials, read :
 - [http://docs.aws.amazon.com/AWSECommerceService/latest/DG/RequiredParameters.html](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/RequiredParameters.html)
 - [http://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingDev.html](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingDev.html)
 
+## Set Locale (Optional)
+If you serve to customers who are not based in the US, you can programatically change the locale for each client like this:
+```javascript
+client.setLocale("IN");
+```
+Here, "IN" can be replaced by available Locale. By default it sets the locale as US.
+
 ## ItemSearch
 
 The ItemSearch operation searches for items on Amazon. The Product Advertising API returns up to ten items per search results page.
