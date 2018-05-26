@@ -53,7 +53,7 @@ class CartItem {
         }
 
         // check ASIN length
-        if (asin.length < 13) {
+        if (asin.length < 10) {
             throw new Error("Invalid ASIN")
         }
 
