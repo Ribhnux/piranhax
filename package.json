@@ -4,7 +4,7 @@
   "description": "Complete implementation package of Amazon Product Advertising API for Node.js ",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "exit"
   },
   "repository": {
     "type": "git",
